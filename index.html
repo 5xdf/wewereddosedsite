@@ -10,8 +10,50 @@
   </head>
   <body>
     <center>
-      <h1>Hello there.</h1>
-      <p>You have been redirected here because my main domain (nbur21.xyz) has gone under a Distributed Denial of Service (DDoS) attack mode. Access to the website will be restricted until the activity stops. Thank you for your understanding. - nbur21</p>
+      <br>
+        <div class="container_MAIN">
+        <div class="container_HEADER">
+          <h1>Hello there.</h1>
+        </div>
+        <div class="container_BODY">
+          <p>You have been redirected here because my main domain (nbur21.xyz) has gone under a Distributed Denial of Service (DDoS) attack mode. Access to the website will be restricted until the activity stops. Thank you for your understanding. - nbur21</p>
+        </div>
+      </div>
     </center>
   </body>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    body {
+      background-image: url('https://img3.wallspic.com/attachments/originals/5/4/7/9/5/159745-google-google_chrome-chrome_os-chrome_os_2020-chromebook-3000x1999.png');
+      background-position: center;
+    }
+
+    .container_MAIN {
+      position: fixed;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      width:60%;
+      
+    }
+    .container_HEADER {
+      font-family: "Varela Round";
+      position: relative;
+      backdrop-filter: blur(25px) saturate(181%);
+      -webkit-backdrop-filter: blur(25px) saturate(181%);
+      background-color: rgba(17, 25, 40, 0.69);
+      border-radius: 12px 12px 0px 0px;
+      border: 1px solid rgba(255, 255, 255, 0.125);
+      padding-top:5px;
+    }
+    .container_BODY {
+      font-family: "Varela Round";
+      backdrop-filter: blur(25px) saturate(181%);
+      -webkit-backdrop-filter: blur(25px) saturate(181%);
+      background-color: rgba(17, 25, 40, 0.69);
+      border-radius: 0px 0px 12px 12px;
+      border: 1px solid rgba(255, 255, 255, 0.125);
+      padding:10px;
+    }
+  </style>
 </html>
